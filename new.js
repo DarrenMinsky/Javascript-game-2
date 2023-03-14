@@ -27,7 +27,7 @@ var winner = "Player1 Wins";
 if(randomNumber1 < randomNumber2){
    winner = setCharAt(winner,6,'2');
 }
-else {
+else if(randomNumber1===randomNumber2){
   winner = "Draw";
 }
 
